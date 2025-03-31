@@ -1,0 +1,84 @@
+.box{
+    position: relative;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgb(0, 0, 0);
+    /* align-items: center; */
+}
+.inputsss{
+    position: absolute;
+    top: 80px;
+    max-width: 445px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.inputs{
+    position: absolute;
+    top: 140px;
+    max-width: 445px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.inputss{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+button{
+    position: absolute;
+    top: 270px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+}
+
+.para{
+    position: absolute;
+    top: 270px;
+}
+
+.registers{
+    position: absolute;
+    top: 310px;
+}
+.signlink{
+    position: absolute;
+    top: 335px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: cornsilk;
+}
+.signlink:hover{
+    color: black;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .box{
+        position: relative;
+        height: 370px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border: 1px solid rgb(0, 0, 0);
+        /* align-items: center; */
+    }
+}
